@@ -670,7 +670,12 @@ a {
 	background-color: white;
 }
 
-#choose .title-line:before {
+#choose .row {
+	margin-right: -15px;
+    margin-left: -15px;
+}
+
+#choose .title-line {
 	margin-right: -15px;
     position: relative;
     overflow: hidden;
@@ -679,6 +684,224 @@ a {
     text-transform: uppercase;
     margin-bottom: 20px;
     font-size: 24px;
+}
+
+#choose h3 {
+	font-size: 16px;
+	text-transform: uppercase;
+    font-weight: bold;
+}
+
+#choose ul {
+	margin-top: 0;
+    margin-bottom: 9.5px;
+    font-size: 13px;
+	list-style: none;
+    padding: 0;
+}
+
+#choose li {
+	display: inline-block;
+    width: 49%;
+}
+
+#choose sup {
+	top: -0.5em;
+	font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+#choose a {
+	color: #3498db;
+    border-bottom: 1px solid transparent;
+   	text-decoration: none;
+}
+
+#choose .links {
+	padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ecf0f1;
+    display: block !important;
+}
+
+#mailbox {
+    background-image: url(../img/dwn.png);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    padding-bottom: 40px;
+}
+
+#mailbox .form-mailbox {
+	display: block;
+    margin-top: 0em;
+}
+
+#mailbox .mailbox {
+	width: 305px;
+    height: 445px;
+    position: relative;
+    padding: 8px 25px 0;
+    background: url(../img/mailbox.png) no-repeat 0 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#mailbox .mailbox-header {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 41px;
+}
+
+#mailbox .mailbox-description {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 -10px 45px -10px;
+    text-align: center;
+}
+
+#mailbox .form-group {
+    margin-bottom: 10px;
+}
+
+#mailbox .control-label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+} 
+
+#mailbox .form-control {
+    display: block;
+    width: 100%;
+    height: 33px;
+    padding: 6px 12px;
+    font-size: 13px;
+    line-height: 1.5384;
+    color: #555555;
+    vertical-align: middle;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+#mailbox .mailbox-submit {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#mailbox .fa.fa-envelope-o {
+    display: none;
+}
+
+#mailbox .send {
+    width: 120px;
+    height: 35px;
+    position: absolute;
+    left: 93px;
+    bottom: 29px;
+    color: #ecf0f1;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #2c3e50;
+    background: #34495e;
+    text-transform: uppercase;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#mailbox .teaser-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#mailbox .size {
+    border-bottom: 1px dotted;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 5px;
+    text-transform: lowercase;
+}
+
+#mailbox .teaser-item {
+    margin-bottom: 20px;
+}
+
+#mailbox .title {
+    display: block;
+    color: #2c3e50;
+    border: 0 none;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#mailbox p {
+    margin: 0 0 9.5px;
+}
+
+#mailbox .catalog-link {
+    font-size: 23px;
+}
+
+#mailbox .color-asbestos {
+    color: #7f8c8d;
+}
+
+#mailbox .color-pomegranate {
+    color: #c0392b;
+    border-bottom: 1px solid #df7c72;
+}
+
+#footer {
+    color: #ecf0f1;
+    background: #34495e;
+    overflow: hidden;
+    height: 80px;
+}
+
+#footer .footer-logo {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 
+#footer #footerlogo {
+    display: block;
+    background: url(../img/logo-mono.jpg) no-repeat; 
+    height: 80px;
+    width: 230px;
+    color: #ecf0f1;
+    border-bottom: 1px solid transparent;
+}
+
+#footer .footer-address {
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+
+#footer a {
+    color: #ecf0f1;
+}
+
+#footer .phone {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ecf0f1;
+}
+
+#footer .pp-label {
+    font-weight: bold;
+    margin-right: 5px;
+    font-weight: bold;
+}
