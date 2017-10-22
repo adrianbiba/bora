@@ -905,3 +905,46 @@ a {
     margin-right: 5px;
     font-weight: bold;
 }
+
+#header .menu-link-item {
+    color: #ecf0f1;
+    font-size: 18px;
+    padding-right: 9px;
+    padding-left: 9px;
+    padding: 28px 4px;
+    border: 0 none;
+
+}
+
+#header .menu-link-item:hover {
+    background: #c0392b;
+}
+
+#header .menu-link {
+    float: left;
+    position: relative;
+    display: block;
+
+}
+
+#header .site-slogan {
+    font-size: 13px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#header .site-name {
+    color: #d35400;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+#header .phone-number {
+    color: #ecf0f1;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    float: right;
+}
