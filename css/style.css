@@ -20,7 +20,9 @@ a {
 	border: 0px;
 }
 
-
+.nav.navbar-nav{
+    margin-left: 10%;
+}
 
 
 .site-name {
@@ -911,7 +913,7 @@ a {
     font-size: 18px;
     padding-right: 9px;
     padding-left: 9px;
-    padding: 28px 4px;
+    padding: 28px 8px;
     border: 0 none;
 
 }
@@ -928,23 +930,29 @@ a {
 }
 
 #header .site-slogan {
-    font-size: 13px;
+    font-size: 12px;
     display: inline-block;
     vertical-align: top;
+    font-weight: bold;
 }
 
 #header .site-name {
     color: #d35400;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 30px;
+    font-weight: bold;
+    letter-spacing: -1px;
 }
 
 #header .phone-number {
     color: #ecf0f1;
     display: inline-block;
     vertical-align: top;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 20px;
     text-transform: uppercase;
     float: right;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-right: 10px;
 }
