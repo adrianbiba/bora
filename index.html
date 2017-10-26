@@ -62,6 +62,12 @@
 					<br>
 					+355-69-40-82228
 				</span>  
+				<div class="call-me-back-wrapper">
+					<a href="#" class="call-me-back">
+						<i class="fa fa-phone"></i>
+						 Call me back
+					</a>
+				</div>
 		    </div>
 		  </div>
 		</nav>
@@ -71,30 +77,106 @@
 </section>
 
 <section id="main-image">
-	
+	<div class="container">
+		<div class="front-tagline">
+			<h1 class="title">Real estate in Albania today</h1>
+				— one stop property shop.
+		</div>
+		<div id="property-search-form">
+		    <form class="hidden-xs front-form-search" action="/" method="post" id="xcono-property-search-form" accept-charset="UTF-8">
+		      	<div>
+		         	<div class="form-group">
+		            	<select class="form-control first form-control form-select ajax-processed" id="edit-intent" name="intent" style="display: none;">
+		               		<option value="buy" selected="selected">Buy</option>
+		               		<option value="rent">Rent</option>
+		           		 </select>
+		            <div class="btn-group bootstrap-select form-control first form-select ajax-processed">
+		               <button type="button" class="btn dropdown-toggle selectpicker btn-default" data-toggle="dropdown" data-id="edit-intent" title="Buy"><span class="filter-option pull-left">Buy</span>&nbsp;<span class="caret"></span></button>
+		               <div class="dropdown-menu open">
+		                  	<ul class="dropdown-menu inner selectpicker" role="menu">
+		                     	<li rel="0" class="selected"><a tabindex="0" class="" style=""><span class="text">Buy</span><i class="glyphicon glyphicon-ok icon-ok check-mark"></i></a></li>
+		                     	<li rel="1"><a tabindex="0" class="" style=""><span class="text">Rent</span><i class="glyphicon glyphicon-ok icon-ok check-mark"></i></a></li>
+		                  	</ul>
+		               	</div>
+		            </div>
+		        </div>
+		        <div class="form-group">
+		            <select class="form-control form-control form-select" id="edit-location" name="location" style="display: none;">
+		               <option value="all" selected="selected">Location</option>
+		               <option value="Dhermi">Dhermi (5)</option>
+		               <option value="Durres">Durres (5)</option>
+		               <option value="Sarande">Sarande (181)</option>
+		               <option value="Vlore">Vlore (37)</option>
+		            </select>
+		            <div class="btn-group bootstrap-select form-control form-select">
+		               	<button type="button" class="btn dropdown-toggle selectpicker btn-default" data-toggle="dropdown" data-id="edit-location" title="Location"><span class="filter-option pull-left">Location</span>&nbsp;<span class="caret"></span></button>
+		               	<div class="dropdown-menu open">
+		                  	<ul class="dropdown-menu inner selectpicker" role="menu">
+		                     	<li rel="0" class="selected"><a tabindex="0" class="" style=""><span class="text">Location</span><i class="glyphicon glyphicon-ok icon-ok check-mark"></i></a></li>
+		                     	<li rel="1"><a tabindex="0" class="" style=""><span class="text">Dhermi (5)</span><i class="glyphicon glyphicon-ok icon-ok check-mark"></i></a></li>
+		                     	<li rel="2"><a tabindex="0" class="" style=""><span class="text">Durres (5)</span><i class="glyphicon glyphicon-ok icon-ok check-mark"></i></a></li>
+		                     	<li rel="3"><a tabindex="0" class="" style=""><span class="text">Sarande (181)</span><i class="glyphicon glyphicon-ok icon-ok check-mark"></i></a></li>
+		                     	<li rel="4"><a tabindex="0" class="" style=""><span class="text">Vlore (37)</span><i class="glyphicon glyphicon-ok icon-ok check-mark"></i></a></li>
+		                  	</ul>
+		               	</div>
+		            </div>
+		         </div>
+		         <input type="hidden" name="object_type" value="all">
+		         <div id="form-search-price-wrapper">
+		            <div class="form-group">
+		               	<select class="form-control form-control form-select" id="edit-range" name="range" style="display: none;">
+		                  	<option value="all" selected="selected">Price range, €</option>
+		                  	<option value="25000-40000">25 - 40 000</option>
+		                  	<option value="40000-55000">40 - 55 000</option>
+		                  	<option value="55000-80000">55 - 80 000</option>
+		                  	<option value="80000-0">more 80 000</option>
+		               	</select>
+		               	<div class="btn-group bootstrap-select form-control form-select">
+		                  	<button type="button" class="btn dropdown-toggle selectpicker btn-default" data-toggle="dropdown" data-id="edit-range" title="Price range, €"><span class="filter-option pull-left">Price range, €</span>&nbsp;<span class="caret"></span></button>
+		                  	<div class="dropdown-menu open">
+		                     	<ul class="dropdown-menu inner selectpicker" role="menu">
+		                        	<li rel="0" class="selected"><a tabindex="0" class="" style=""><span class="text">Price range, €</span><i class="glyphicon glyphicon-ok icon-ok check-mark"></i></a></li>
+		                        	<li rel="1"><a tabindex="0" class="" style=""><span class="text">25 - 40 000</span><i class="glyphicon glyphicon-ok icon-ok check-mark"></i></a></li>
+		                        	<li rel="2"><a tabindex="0" class="" style=""><span class="text">40 - 55 000</span><i class="glyphicon glyphicon-ok icon-ok check-mark"></i></a></li>
+		                        	<li rel="3"><a tabindex="0" class="" style=""><span class="text">55 - 80 000</span><i class="glyphicon glyphicon-ok icon-ok check-mark"></i></a></li>
+		                        	<li rel="4"><a tabindex="0" class="" style=""><span class="text">more 80 000</span><i class="glyphicon glyphicon-ok icon-ok check-mark"></i></a></li>
+		                     	</ul>
+		                  	</div>
+		               	</div>
+		            </div>
+		        </div>
+		        <div class="form-group">
+		        	<div class="btn-submit"><i class="fa fa-search"></i><input class="btn btn-default form-submit" type="submit" id="edit-submit--2" name="op" value="Search"></div>
+		        </div>
+		         	<input type="hidden" name="form_build_id" value="form-_3ipV-NZcu_JjRYxprUfzT5j4Yp5uTZgcbxv2yVI5vA">
+		         	<input type="hidden" name="form_id" value="xcono_property_search_form">
+		      </div>
+		   	</form>
+		</div>
+	</div>
 </section>
 <section id="benefits">
 	<div class="container">
 		<div class="row">	
 			<div class="col-lg-3">
-				<a href="#" class="icon icon-sale"></a>
-				<a href="#" class="title">	APARTMENTS FOR SALE </a>
+				<a href="buy-menu.html" class="icon icon-sale"></a>
+				<a href="buy-menu.html" class="title">	APARTMENTS FOR SALE </a>
 					<p class="info">Bora Property is an Albanian estate agecy. We offer you real estate directly from developers and guarantee identical prices as for our local citizens.</p>
 				
 
 			</div>
 			<div class="col-lg-3">
-				<a href="#" class="icon icon-rent"></a>
-				<a href="#" class="title"> RENT FROM US </a>
+				<a href="buy-menu.html" class="icon icon-rent"></a>
+				<a href="buy-menu.html" class="title"> RENT FROM US </a>
 				<p class="info"> We rent amazing holiday apartments purchased by our clients. Choose the best apartment from the best choice.</p>
 			</div>
 			<div class="col-lg-3">
-				<a href="#" class="icon icon-tour"></a>
-				<a href="#" class="title"> FREE TOUR </a>
+				<a href="buy-menu.html" class="icon icon-tour"></a>
+				<a href="buy-menu.html" class="title"> FREE TOUR </a>
 			</div>
 			<div class="col-lg-3">
-				<a href="#" class="icon icon-question"></a>
-				<a href="#" class="title"> QUESTIONS AND ANSWERS </a>
+				<a href="buy-menu.html" class="icon icon-question"></a>
+				<a href="buy-menu.html" class="title"> QUESTIONS AND ANSWERS </a>
 				<p class="info">	Our site contains a variety of questions and answers about Bora property, about buying, renting and furnishing of apartments in Albania. Feel free to ask more. </p>
 			</div>
 		</div>	
