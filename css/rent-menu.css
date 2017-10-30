@@ -60,6 +60,11 @@ a {
 	background: #ecf0f1;
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 213px;
+}
+
+#buy-list .pp-catalog-filters{
+    position: fixed;
 }
 
 #buy-list .tt-list {

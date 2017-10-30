@@ -128,38 +128,15 @@ a {
     font-size: 16px;
 }
 
-#top-wrapper .container {
+#top-wrapper .container-fluid {
     background-position: 520px 100%;
     position: relative;
     height: 640px;
-    background: url(../img/about_new.png) no-repeat 180px 100%;
+    background: url(../img/about_new1.png) no-repeat 100%;
 
 }
 
-#top-wrapper .container:before {
-    content: "";
-    position: absolute;
-    left: 540px;
-    top: 0;
-    display: block;
-    height: 0;
-    width: 500px;
-    border-bottom: 640px solid #e74c3c;
-    border-left: 205px solid transparent;
-    border-right: 40px solid transparent;
-}
 
-#top-wrapper .container:after {
-    left: 1010px;
-    content: "";
-    position: absolute;
-    left: 590px;
-    bottom: 20px;
-    display: block;
-    height: 640px;
-    width: 640px;
-    background: url(../img/logo-red-brand.png) no-repeat 0 0;
-}
 
 .view-about-us-photo-and-video- {
     margin-top: 40px;
