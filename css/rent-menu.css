@@ -510,3 +510,57 @@ a {
 #buy-list .label-belize_hole {
     background: #2980b9;
 }
+
+#header .menu-link-item {
+    color: #ecf0f1;
+    font-size: 18px;
+    padding-right: 9px;
+    padding-left: 9px;
+    padding: 28px 8px;
+    border: 0 none;
+
+}
+
+#header .menu-link-item:hover {
+    background: #c0392b;
+}
+
+#header .menu-link {
+    float: left;
+    position: relative;
+    display: block;
+
+}
+
+#header .site-slogan {
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+#header .site-name {
+    color: #d35400;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+#header .phone-number {
+    color: #ecf0f1;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    float: right;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-right: 10px;
+}
+
+
+#header .navbar-nav {
+    margin-left: 78px;
+}
