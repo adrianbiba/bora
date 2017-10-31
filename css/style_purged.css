@@ -10,6 +10,12 @@ a {
 img{
 	max-width: 100%!important;
 }
+.padding-0{
+	padding: 0px;
+}
+.mt15{
+	margin-top: 15px;
+}
 .menu {
 	background-color: #34495e;
 	border-bottom: 5px solid #d35400;
@@ -18,6 +24,7 @@ img{
 .navcl {
 	background-color: #34495e;
 	border: 0px;
+	z-index: 20;
 }
 .nav.navbar-nav {
 	padding: 0 5%;
@@ -786,9 +793,6 @@ img{
 	margin-bottom: 9.5px;
 	text-align: center;
 }
-.hidden-xs {
-	display: block !important;
-}
 #main-image .front-form-search > div {
 	width: 678px;
 	min-height: 60px;
@@ -1083,6 +1087,7 @@ img{
 }
 #buy-list .pp-catalog-filters {
 	position: fixed;
+	z-index: 2;
 }
 #buy-list .tt-list {
 	list-style: none;
@@ -1138,9 +1143,6 @@ img{
 	margin-left: 15px;
 	padding-left: 14px;
 	border-left: 1px solid #ecf0f1;
-}
-#buy-list .pull-right {
-	float: right !important;
 }
 #buy-list .list-item {
 	display: inline;
@@ -1229,9 +1231,6 @@ img{
 	vertical-align: bottom;
 	border-bottom: 2px solid #dddddd;
 	font-weight: bold;
-}
-#buy-list .suit-view {
-	display: table-cell;
 }
 #buy-list tbody {
 	display: table-row-group;
@@ -2122,6 +2121,22 @@ label {
 	    line-height: 20px;
 	}
 
+	#social {
+	    margin-top: 130px;
+	}
+
+	#information .pps {
+	    text-indent: 0;
+	    width: 65px;
+	    border: 2px solid #2c3e50;
+	    float: left;
+	    height: auto;
+	    margin-bottom: 10px;
+	    background: none;
+	    margin: 0 0px 5px 0px;
+	    display: inline-block;
+	}
+
 }
 
 @media (max-width: 991px){
@@ -2172,6 +2187,21 @@ label {
 	    margin-bottom: 20px;
 	    width: 150px;
 	}
+
+	#buy-list .description {
+		float: initial;
+		width: initial;
+		padding: 0 5px;
+	}
+
+	#buy-list .pp-catalog-filters {
+	    position: initial;
+	}
+
+	#buy-list .node-label {
+		float: initial;
+	}
+
 
 }
 
@@ -2224,6 +2254,115 @@ label {
 
 	#benefits {
 	    margin-top: 20px;
+	}
+
+	#main-image {
+	    height: initial;
+	}
+
+	.suit-status, .suit-view, .suit-plan{
+		display: none!important;
+	}
+
+	.watchlist-block {
+		font-size: 12px;
+	}
+
+	#buy-list .last{
+		margin-left: 5px;
+    	padding-left: 5px;
+	}
+
+	#buy-list .header {
+		float: initial;
+		width: initial;
+		padding: 0px 0px;
+	}
+
+	#buy-list .fa {
+	    margin: 0 5px;
+	}
+
+	.view-about-us-photo-and-video- .field-video + .field-images {
+	    float: initial;
+	    width: auto;
+	}
+
+	.view-about-us-photo-and-video- .field-images .colorbox {
+	    margin: 0 15px 15px 0;
+	}
+	.navbar .phone-wrapper{
+		display: none!important;
+	}
+
+	.menu {
+	    margin-left: -15px;
+	    margin-right: -15px;
+	}
+
+	#header .navbar-nav{
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 15px;
+	}
+
+	.navbar-toggle {
+	    margin-top: 20px;
+	}
+
+	#header .menu-link{
+		float: none;
+	}
+
+	#header .menu-link a{
+	    width: 100%;
+	    display: inline-block;
+        padding-top: 10px;
+	    padding-bottom: 10px;
+	    line-height: 19px;
+	}
+
+	#header .menu-link-item {
+	    padding: 5px 5px;
+	}
+
+	.navcl{
+	    margin-right: -15px;
+	}
+
+	#property-search-form-mobile{
+		color: #fff;
+	}
+	#property-search-form-mobile .btn-submit {
+	    color: #fff;
+	    border: 0 none;
+	    background: #d35400;
+	    font-size: 18px;
+	    -webkit-border-radius: 4px;
+	    -moz-border-radius: 4px;
+	    border-radius: 4px;
+	}
+
+	#property-search-form-mobile .btn-submit .fa {
+	    margin-right: 10px;
+	    margin-left: 15px;
+	}
+
+	#property-search-form-mobile .btn-submit .btn-default {
+	    color: #333;
+	    background-color: #fff;
+	    border-color: #ccc;
+	    background: transparent;
+	    border: none;
+	    color: #fff;
+	    font-size: 18px;
+	}
+
+	#form-search-price-wrapper + .form-group {
+	    width: 125px;
+	}
+	div.navbar-ex1-collapse{
+	    border-top: 1px solid #c6c8c9;
 	}
 
 }
