@@ -40,26 +40,67 @@
                </div>
             </div>
 
-            <ul class="nav navbar-nav collapse navbar-collapse navbar-ex1-collapse">
-               <li class="menu-link">
-                  <a href="buy-menu.html" class="menu-link-item">BUY</a>   
-               </li>
-               <li class="menu-link">
-                  <a href="rent-menu.html" class="menu-link-item">RENT</a>
-               </li>
-               <li class="menu-link">
-                  <a href="services-menu.html" class="menu-link-item">SERVICES</a>
-               </li>
-               <li class="menu-link">
-                  <a href="news-menu.html" class="menu-link-item">NEWS</a>
-               </li>
-               <li class="menu-link">
-                  <a href="questions-menu.html" class="menu-link-item">QUESTIONS</a>
-               </li>
-               <li class="menu-link">
-                  <a href="about-menu.html" class="menu-link-item">ABOUT</a>
-               </li>
-            </ul>
+               <ul class="col-xs-6 padding-0 nav navbar-nav collapse navbar-collapse navbar-ex1-collapse">
+                  <li class="menu-link">
+                     <a href="buy-menu.html" class="menu-link-item">BUY</a>   
+                  </li>
+                  <li class="menu-link">
+                     <a href="rent-menu.html" class="menu-link-item">RENT</a>
+                  </li>
+                  <li class="menu-link">
+                     <a href="services-menu.html" class="menu-link-item">SERVICES</a>
+                  </li>
+                  <li class="menu-link">
+                     <a href="news-menu.html" class="menu-link-item">NEWS</a>
+                  </li>
+                  <li class="menu-link">
+                     <a href="questions-menu.html" class="menu-link-item">QUESTIONS</a>
+                  </li>
+                  <li class="menu-link">
+                     <a href="about-menu.html" class="menu-link-item">ABOUT</a>
+                  </li>
+               </ul>
+
+               
+               <div class="col-xs-6 hidden-md hidden-lg collapse navbar-ex1-collapse mt15">
+                   <div id="property-search-form-mobile">
+                       <form class="visible-xs mobile-form-search" action="/buy/sarande/apartments/corner-residence" method="post" id="xcono-property-search-form" accept-charset="UTF-8">
+                           <div>
+                               <h2>Search</h2>
+                               <div class="form-group">
+                                   <select class="form-control">
+                                       <option value="buy" selected="selected">Buy</option>
+                                       <option value="rent">Rent</option>
+                                   </select>
+                               </div>
+                               <div class="form-group">
+                                   <select class="form-control">
+                                       <option value="all" selected="selected">Location</option>
+                                       <option value="Dhermi">Dhermi (5)</option>
+                                       <option value="Durres">Durres (5)</option>
+                                       <option value="Sarande">Sarande (181)</option>
+                                       <option value="Vlore">Vlore (37)</option>
+                                   </select>
+                               </div>
+                               <div id="form-search-price-wrapper">
+                                   <div class="form-group">
+                                       <select class="form-control">
+                                           <option value="all" selected="selected">Price range, €</option>
+                                           <option value="25000-40000">25 - 40 000</option>
+                                           <option value="40000-55000">40 - 55 000</option>
+                                           <option value="55000-80000">55 - 80 000</option>
+                                           <option value="80000-0">more 80 000</option>
+                                       </select>
+                                   </div>
+                               </div>
+                               <div class="form-group">
+                                   <div class="btn-submit"><i class="fa fa-search"></i><input class="btn btn-default form-submit" type="submit" id="edit-submit--4" name="op" value="Search"></div>
+                               </div>
+                           </div>
+                       </form>
+                   </div>
+               </div>
+
             <div class="hidden-xs phone-wrapper">
                <span class="pp-label">Call<span class="now"> now</span>:</span>
                <span class="phone-number">+355-69-40-18882<br>+355-69-40-82228</span>
